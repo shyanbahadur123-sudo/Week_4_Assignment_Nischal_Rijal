@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>FSE CSS Practical Assignment 2</h1>
+    <p class="subtitle">CSS Fundamentals Practice</p>
+
+    <div class="task-box" id="task1">
+        <h2>Task1-css selector</h2>
+        <article>
+        <p>Paragraph insite article (Descendant Selector)</p>
+        </article>
+        <div class="parantbox">
+            <p>Direct child paragraph (Child selector>)</p>
+        </div>
+        <h3 class="sibling-heading"> 
+            heading for siblings
+        </h3>
+        <p>Adjust sibling paragraph (+)</p>
+        <p>General sibling paragraph (~)</p>
+        <button data-type="primary">Primary Button</button>
+        <button data-type="secondary">Secondary Button</button>
+    </div>
+<div class="task-box">
+    <h3>Task 2 & 3 - CSS Units & Colors</h3>
+    <div class="color-box named-color">Crimson Color</div>
+    <div class="color-box hex-color">HEX Color</div>
+    <div class="color-box rgb-color">RGB Color</div>
+    <div class="color-box rgba-color">RGBA Color</div>
+    <div class="color-box hsl-color">HSL Color</div>
+
+    <div class="responsive-box">
+        CSS Units Example
+    </div>
+</div>
+<div class="task-box">
+    <h2>Task 4 - Typography</h2>
+
+    <h1 class="font-title">Main Heading</h1>
+    <h3 class="font-subtitle">Subheading</h3>
+    <p class="font-body">This is a normal paragraph.</p>
+
+    <blockquote class="font-quote">
+        CSS makes web pages look beautiful.
+    </blockquote>
+
+    <p class="font-caps">Small-caps example</p>
+</div>
+    <div class="task-box" id="task5">
+        <h2>Task 5 - Text Properties</h2>
+        
+        <p class="text-left">Left Aligned Text</p>
+        <p class="text-center">Center Aligned Text</p>
+        <p class="text-right">Right Aligned Text</p>
+        <p class="text-underline">Custom Red Underline</p>
+        <p class="text-upper">uppercase text example</p>
+        <p class="text-spaced">Letter and Word Spacing</p>
+        <p class="text-shadow-demo">3D Text Shadow</p>
+    </div>
+    <div class="task-box" id="task6">
+        <h2>Task 6 - Image Properties</h2>
+        
+        <h3>Image 1: Normal Rectangle</h3>
+        <img src="landscape.jpg" alt="Sample 1" class="img-normal">
+
+        <h3>Image 2: Circular Avatar</h3>
+        <img src="profile.png" alt="Profile" class="img-circle">
+
+        <h3>Image 3: Object-Fit Cover</h3>
+        <img src="View.jpg" alt="Cover" class="img-cover">
+
+        <h3>Image 4: Object-Fit Contain</h3>
+        <img src="landscape.jpg" alt="Contain" class="img-contain">
+    </div>
+
+    <div class="task-box" id="task7">
+        <h2>Task 7 - Mini Project: Profile Card</h2>
+        
+        <div class="profile-card">
+            <img src="profile.png" alt="Profile Picture" class="profile-img">
+            <h2 class="profile-name">HAina</h2>
+            <p class="profile-job">Web Developer</p>
+            <p class="profile-desc">Learning HTML and CSS to build clean websites.</p>
+            
+            <div class="skills">
+                <span class="skill">HTML</span>
+                <span class="skill">CSS</span>
+                <span class="skill">JavaScript</span>
+            </div>
+
+            <p class="profile-links">
+                <a href="https://github.com/">GitHub</a> | <a href="https://np.linkedin.com/">LinkedIn</a>
+            </p>
+
+            <button class="btn-contact">Contact Me</button>
+        </div>
+    </div>
+
+
+    <div class="task-box" id="task8">
+        <h2>Task 8 - Observations Table</h2>
+        
+        <table border="1" class="obs-table">
+            <thead>
+                <tr>
+                    <th>Property</th>
+                    <th>Value 1</th>
+                    <th>Value 2</th>
+                    <th>Value 3</th>
+                    <th>Observation</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>font-size</td>
+                    <td>12px</td>
+                    <td>18px</td>
+                    <td>28px</td>
+                    <td>Text gets larger</td>
+                </tr>
+                <tr>
+                    <td>text-align</td>
+                    <td>left</td>
+                    <td>center</td>
+                    <td>right</td>
+                    <td>Text changes position</td>
+                </tr>
+                <tr>
+                    <td>opacity</td>
+                    <td>1</td>
+                    <td>0.5</td>
+                    <td>0.2</td>
+                    <td>Element becomes transparent</td>
+                </tr>
+                <tr>
+                    <td>object-fit</td>
+                    <td>fill</td>
+                    <td>contain</td>
+                    <td>cover</td>
+                    <td>Changes how the image resizes</td>
+                </tr>
+                <tr>
+                    <td>border-radius</td>
+                    <td>0px</td>
+                    <td>10px</td>
+                    <td>50%</td>
+                    <td>Makes corners rounded or circular</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
+
+
